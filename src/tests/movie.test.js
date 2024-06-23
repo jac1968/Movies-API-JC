@@ -15,7 +15,9 @@ const movie = {
   synopsis: "Lorem Ipsum is simply dummy text of the printing and typesetting",
   releaseYear: 2023
   
-}// Deleting records from tables actors, directors and genres
+}
+
+// Deleting records from tables actors, directors and genres
 afterAll(async () => {
   await actor.destroy()
   await director.destroy()
